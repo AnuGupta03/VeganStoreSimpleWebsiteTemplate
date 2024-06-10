@@ -1,0 +1,1076 @@
+body{
+    margin: 0;
+    font-family: "Noto Sans", sans-serif;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    width: 100%;
+    height: 100%;
+}
+
+/* Front Page */
+.address-wrapper{
+    height: 98vh;
+    width: 100vw;
+}
+#topbar{
+    width: 100%;
+    height: 100px;
+    background-color: whitesmoke;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+.headerclass{
+    float: right;
+    margin-right: 32px;
+    margin-top: 32px;
+    padding: 8px 16px;
+    border-radius: 10px;
+    border: transparent;
+    font-weight: bold;
+    background-color: whitesmoke;
+}
+#icon{
+    padding: 5px 15px;
+    margin-top: 32px;
+    margin-left: 40px;
+    border-radius: 10px;
+    border: transparent;
+    background-color: whitesmoke;
+}
+
+/* .label{
+    size: 23px;
+} */
+
+#buynow{
+    background-color:yellowgreen;
+    color: white;
+    font-weight: bold;
+    padding: 8px 35px;
+}
+
+.center-div {
+    width: 100%;
+    /* height: 630px; */
+    position: relative;
+    text-align: center;
+}
+
+#imgid{
+    width: 100%;
+    opacity: 0.8;
+}
+
+.center-div h1{
+    font-size: 50px;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black; 
+    height: auto;
+    letter-spacing: 3px;
+}
+.center-div p{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-weight: bold;
+    width: 50%;
+    height: auto;
+}
+/* Step Section */
+.gridsection{
+    height: auto;
+    width: 100%;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.row{
+    display: flex;
+}
+#firstdiv{
+    position: relative;
+    background-color:cyan;
+    height: 83vh;
+    width: 25vw;
+}
+
+#scissors{
+    font-size: 80px;
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#scissors:hover{
+    font-size: 100px;
+}
+#firsth2{
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#firstp{
+    font-size: 14px;
+    color: white;
+    position: absolute;
+    top: 68%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+}
+
+#seconddiv{
+    position: relative;
+    background-color:olive;
+    height: 83vh;
+    width: 25vw;
+}
+#paintbrush{
+    font-size: 80px;
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#paintbrush:hover{
+    font-size: 100px;
+}
+
+#secondh2{
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#secondp{
+    font-size: 14px;
+    color: white;
+    position: absolute;
+    top: 60%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+}
+
+#Thirddiv{
+    position: relative;
+    background-color:burlywood;
+    height: 83vh;
+    width: 25vw;
+}
+#bag{
+    font-size: 80px;
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#bag:hover{
+    font-size: 100px;
+}
+
+#thirdh2{
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#thirdp{
+    font-size: 14px;
+    color: white;
+    position: absolute;
+    top: 68%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+}
+
+#fourthdiv{
+    position: relative;
+    background-color: pink;
+    height: 83vh;
+    width: 25vw;
+}
+#smile{
+    font-size: 80px;
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#smile:hover{
+    font-size: 100px;
+}
+#fourthh2{
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#fourthp{
+    font-size: 14px;
+    color: white;
+    position: absolute;
+    top: 60%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+}
+#gridsection{
+    margin-bottom: -21px;
+}
+/* Vegan Store Code */
+#veganstore{
+    margin-top: -21px;
+}
+.vegancontainer{
+    height: 88vh;
+    width: 100vw;
+    background-color:rgb(246, 224, 189);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#freshfood{
+    margin-top: 60px;
+}
+#ourveganstore{
+    font-size: 40px;
+    margin-top: -10px;
+}
+#para{
+    margin-top: -10px;
+}
+.gridview{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.camera{
+    margin-left: 123px;
+}
+#cam{
+    font-size: 80px;
+    margin-left: 55px;
+}
+#cam:hover{
+    font-size: 100px;
+}
+
+#camerah2{
+    margin-right: 40px;
+}
+.auto{
+    line-break: normal;
+}
+.rocket{
+    margin-left: -3px;
+}
+#roc{
+    font-size: 80px;
+    margin-left: 28px;
+}
+#roc:hover{
+    font-size: 100px;
+}
+#rocketh2{
+    margin-right: 40px;
+}
+.twitter{
+    margin-left: 20px;
+}
+#twi{
+    font-size: 80px;
+    margin-left: 50px;
+}
+
+#twi:hover{
+    font-size: 100px;
+}
+#twitterh2{
+    margin-left: 56px;
+}
+#twitterp{
+    margin-left: 3px;
+}
+.comments{
+    margin-left: 20px;
+}
+#com{
+    font-size: 80px;
+    margin-left: 50px;
+}
+#com:hover{
+    font-size: 100px;
+}
+#commentsh2{
+    margin-right: 134px;
+    margin-left: 44px;
+}
+/* Our Vegan Shop */
+#veganshop{
+    margin-top: -21px;
+}
+
+.veganshopcontainer{
+    height: 88vh;
+    width: 100vw;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#foodshop{
+    margin-top: 30px;
+}
+#ourveganshop{
+    font-size: 40px;
+    margin-top: -10px;
+}
+#shoppara{
+    margin-top: -25px;
+}
+
+.shopview{
+    margin-top: 30px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 25px;
+}
+
+#shopfirstdiv{
+    height: 40vh;
+    width: 20vw;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3); /* Shadow effect */
+    transition: box-shadow 0.3s ease; /* Smooth transition for hover effect */
+}
+
+#shopfirstdiv.vegan:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); /* Enhanced shadow on hover */
+}
+#shopfirstdiv img{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	margin-top: 20px;
+    margin-left: 90px;
+}
+
+#vegan:hover{
+	box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+#shopviewp{
+    font-size: 8px;
+}
+#shopviewh3{
+    margin-top: 5px;
+    margin-left: 70px;
+}
+#shopviewp2{
+    margin-top: -20px;
+    margin-left: 110px;
+}
+/* <!-- Follow Us --> */
+
+/* .wrapper{
+	width: 100px;
+	height: 100px;
+} */
+.followusdiv{
+    height: 83vh;
+    width: 100vw;
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+#followusimg{
+    width: 65%;
+    height: 83px;
+}
+#followusimg img{
+	width: 65vw;
+	height: 83vh;
+}
+#youremail{
+    width: 35vw;
+    height: 83vh;
+}
+#youremail img{
+    width: 35vw;
+    height: 83vh;
+    opacity: 0.2;
+}
+
+#youremail{
+position: relative;
+text-align: center;
+}
+
+#youremail h1 {
+    position: absolute;
+    font-size: 40px;
+    top: 20%;
+    left: 38%;
+    transform: translate(-50%, -50%);
+    color: black; /* Optional: Change text color */
+}
+
+#youremail p{
+    position: absolute;
+    top: 35%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-weight: bold;
+}
+
+#youremail input{
+    position: absolute;
+    top: 55%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    color: black;
+    padding: 10px 25px;
+    border-radius: 5px;
+    border: 2px solid white;
+}
+
+#youremail button{
+    position: absolute;
+    top: 65%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    color: white;
+    border: 2px solid rgb(168, 10, 10);
+    background-color: rgb(168, 10, 10);
+}
+
+#youremail button:hover{
+    color: rgb(168, 10, 10);
+    background-color: transparent;
+}
+/* <!-- Active Customer  --> */
+
+
+.activefirst{
+    margin-top: -20px;
+    width: 100vw;
+    height: 40vh;
+    background-color: whitesmoke;
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15%;
+    grid-gap: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.activefirst h1{
+    font-size: 35px;
+    margin-left: 125px;
+}
+
+#year{
+    margin-left: 53px;
+}
+#happycustomer{
+    margin-left: 100px;
+}
+#Satisfaction{
+    margin-left: 87px;
+}
+#Detox{
+    margin-left: 103px;
+}
+
+/* Vimeo Video */
+#Vimeosec{
+    width: 100vw;
+}
+.VimeoClass{
+    margin-top: -50px;
+    width: 100%;
+    height: 83vh;
+    background-color: white;
+    position: relative;
+
+}
+#vimeovideoh1{
+    position: absolute;
+    text-align: center;
+    top: -0%;
+    right: 42%;
+    font-size: 40px;
+}
+
+#videofile{
+    position: absolute;
+    text-align: center;
+    top: 25%;
+    right: 32%;
+    width: 40vw;
+    height: 60vh;
+}
+
+#myBtn {
+    position: absolute;    
+    width: 150px;
+    top: 84%;
+    left: 28%;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+#myBtn:hover {
+    background: #ddd;
+    color: black;
+  }
+  /* <!-- Address Information--> */
+
+#twodiv{
+    margin-top: 0px;
+    width: 100vw;
+    height: 83vh;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.first-div{
+    width: 100%;
+    background-color: white;
+}
+.second-div{
+    width: 100%;
+    background-color: white;
+}
+
+.first-div h3{
+    margin-left: 85px;
+}
+.first-div h2{
+    margin-top: -5px;
+    margin-bottom: -5px;
+    margin-left: 85px;
+}
+.first-div h1{
+    margin-top: -12px;
+    margin-left: 85px;
+    font-size: 40px;
+    margin-bottom: -4px;
+}
+.first-div p{
+    font-size: 13px;
+    margin-left: 85px;
+}
+
+.second-div h3{
+    margin-left: 85px;
+}
+.second-div h1{
+    margin-top: -12px;
+    margin-left: 85px;
+    font-size: 40px;
+    margin-bottom: -4px;
+}
+.second-div p{
+    font-size: 13px;
+    margin-left: 85px;
+}
+.second-div input{
+    font-size: 13px;
+    margin-left: 85px;
+    padding: 12px 70px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.second-div button{
+    font-size: 13px;
+    margin-left: 85px;
+    padding: 12px 30px;
+    border-radius: 5px;
+    background-color:yellowgreen;
+    font-weight: bold;
+    color: white;
+}
+#messageinput{
+    font-size: 13px;
+    margin-left: 85px;
+    padding: 18px 70px;
+    margin-bottom: 10px;
+}
+
+.second-div ::placeholder{
+    margin-right: 90px;
+
+}
+
+/* FooterTag */
+.footersection{
+    width: 100%;
+    height: 100px;
+    padding: 60px 0 0px 0;
+    background-color: black;
+    margin-bottom: -23px;
+}
+#footertag{
+    margin-top: 0px;
+    width: 100vw;
+    height: 10vh;
+    position: relative;
+}
+.footerdiv{
+    width: 100%;
+    height: auto;
+}
+.footerdiv h4{
+    left: 40%;
+    top: -2%;
+    color: white;
+    text-align: center;
+}
+/* ===================================== */
+@media only screen and (max-width: 415px) {
+    .address-wrapper{
+        height: 159vh;
+    }
+    #topbar {
+        width: 99%;
+    }
+    .center-div{
+        width: 198%;
+    }
+    #imgid{
+        width: 716px;
+        height: 1171px;
+    }
+    .center-div h1{
+        left: 51%;
+        top: 30%;
+        font-size: 40px;
+        font-weight: 750;
+    }
+    .center-div p{
+        top: 53%;
+        font-size: 25px;
+        left: 51%;
+    }
+    #icon{
+        font-size: 45px;
+    }
+    #buynow{
+        font-size: 18px;
+        padding: 16px 41px;
+
+    }
+    .center-div img{
+        height: 100%
+    }
+    .headerclass-none{
+        display: none;
+    }
+    .row{
+        flex-direction: column;
+    }
+    #firstdiv{
+        height: 149vh;
+        width: 199vw;
+    }
+    #scissors{
+        font-size: 187px;
+        top: 25%;
+    }
+    #firsth2{
+        font-size: 51px;
+        top: 36%;
+        left: 52%
+    }
+    #firstp{
+        left: 57%;
+        top: 60%;
+        font-size: 28px;
+    }
+    #seconddiv{
+        height: 149vh;
+        width: 199vw;
+    }
+    #paintbrush{
+        font-size: 187px;
+        top: 25%;
+    }
+    #secondh2{
+        font-size: 51px;
+        top: 36%;
+        left: 52%
+    }
+    #secondp{
+        left: 57%;
+        top: 60%;
+        font-size: 28px;
+    }
+    #firstp{
+        left: 57%;
+        top: 60%;
+        font-size: 28px;
+    }
+    #Thirddiv{
+        height: 149vh;
+        width: 199vw;
+    }
+    #bag{
+        font-size: 187px;
+        top: 25%;
+    }
+    #thirdh2 {
+        font-size: 51px;
+        top: 36%;
+        left: 52%
+    }
+    #thirdp {
+        left: 57%;
+        top: 60%;
+        font-size: 28px;
+    }
+    #fourthdiv{
+        height: 149vh;
+        width: 199vw;
+    }
+    #smile{
+        font-size: 187px;
+        top: 25%;
+    }
+    #fourthh2 {
+        font-size: 51px;
+        top: 36%;
+        left: 52%
+    }
+    #fourthp {
+        left: 57%;
+        top: 60%;
+        font-size: 28px;
+    }
+    .vegancontainer {
+        height: 189vh;
+        width: 199vw;
+    }
+    #freshfood{
+        margin-top: 75px;
+        font-size: 36px;
+    }
+    #ourveganstore {
+        font-size: 69px;
+        margin-top: -41px;
+    }
+    #para {
+        margin-top: -36px;
+        font-size: 21px;
+    }
+    .gridview{
+        display: flex;
+        flex-direction: column;
+    }
+    .camera{
+        margin-top: 38px;
+        margin-left: -3px;
+    }
+    #cam {
+        font-size: 191px;
+        margin-left: 78px;
+    }
+    #cam:hover {
+        font-size: 205px;
+    }
+    #camerah2 {
+        margin-top: -26px;
+        margin-left: -12px;
+        font-size: 44px;
+    }
+    .auto {
+        font-size: 29px;
+        margin-top: -20px;
+        margin-left: 13px;
+    }
+    .rocket {
+        margin-top: 78px;
+        margin-left: 26px;
+    }
+    #roc{
+        font-size: 191px;
+        margin-top: 30px;
+    }
+    #rocketh2 {
+        margin-top: -18px;
+        margin-left: -12px;
+        font-size: 47px;
+    }
+    .rocket p{
+        font-size: 26px;
+    }
+    .twitter{
+        display: none;
+    }
+    .comments{
+        display: none;
+    }
+    .veganshopcontainer {
+        height: 187vh;
+        width: 199vw;
+    }
+    #foodshop {
+        margin-top: 50px;
+        font-size: 37px;
+    }
+    #ourveganshop {
+        font-size: 62px;
+        margin-top: -49px;
+    }
+    #shoppara {
+        margin-top: -43px;
+        font-size: 26px;
+        margin-left: 61px;
+    }
+    .shopview {
+        display: flex;
+        flex-direction: column;
+    }
+    #shopfirstdiv {
+        height: 68vh;
+        width: 163vw;
+    }
+    #shopfirstdiv img {
+        width: 211px;
+        height: 219px;
+        margin-top: 23px;
+        margin-left: 181px;
+    }
+    #shopviewp {
+        font-size: 21px;
+        margin-left: 29px;
+    }
+    #shopviewh3 {
+        margin-top: 26px;
+        margin-left: 172px;
+        font-size: 30px;
+    }
+    #shopviewp2 {
+        margin-top: -25px;
+        margin-left: 252px;
+        font-size: 24px;
+        font-weight: bold;
+    }
+    .vegan-thirdrow{
+        display: none;
+    }
+    element.style {
+        width: 718px;
+        height: 186vh;
+    }
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        /* grid-template-columns: auto auto; */
+    }
+    #followusimg img {
+        width: 199vw;
+        height: 89vh;
+    }
+    #youremail img {
+        width: 200vw;
+        height: 96vh;
+        opacity: 0.2;
+    }
+    .followusdiv {
+        height: 186vh;
+        width: 100vw;
+    }
+    #followusimg {
+        height: 656px;
+    }
+    #youremail h1 {
+        font-size: 54px;
+        top: 16%;
+        left: 48%;
+    }
+    #youremail {
+        width: 199vw;
+        height: 96vh;
+    }
+    #youremail p {
+        font-size: 18px;
+        top: 31%;
+        left: 48%;
+    }
+    #youremail input {
+        top: 55%;
+        left: 46%;
+        padding: 18px 67px;
+    }
+    #youremail button {
+        top: 66%;
+        left: 46%;
+        padding: 13px 26px;
+    }
+    .activefirst h1 {
+        font-size: 39px;
+        margin-left: 85px;
+    }
+    .activefirst {
+        margin-top: -85px;
+        flex-direction: column;
+        width: 200vw;
+        height: 206vh;
+        grid-gap: 115px;
+    }
+    .activefirstfirst {
+        margin-left: 137px;
+        font-size: 64px;
+    }
+    #year {
+        margin-left: -26px;
+        font-size: 26px;
+    }
+    .activefirstsecond{
+        margin-left: 79px;
+    }
+    #happycustomer {
+        margin-left: 13px;
+        font-size: 26px;
+    }
+    .activefirstthird{
+        margin-left: 79px;
+    }
+    #Satisfaction {
+        margin-left: 10px;
+        font-size: 26px;
+    }
+    .activefirstfourth{
+        margin-left: 79px;
+    }
+    #Detox {
+        margin-left: 41px;
+        font-size: 26px;
+    }
+    .VimeoClass {
+        margin-top: -4px;
+        width: 200%;
+        height: 100vh;
+    }
+    #vimeovideoh1 {
+        top: -2%;
+        right: 24%;
+        font-size: 61px;
+    }
+    #videofile {
+        top: -1%;
+        right: 1%;
+        width: 200vw;
+        height: 105vh;
+    }
+    #myBtn{
+        top: 85%;
+        left: 39%;
+        font-size: 29px;
+        padding: 14px;
+    }
+    #twodiv{
+        width: 202vw;
+        height: 189vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .first-div h3 {
+        font-size: 24px;
+        margin-left: 84px;
+    }
+    .first-div h1 {
+        margin-top: -20px;
+        margin-left: 85px;
+        font-size: 46px;
+        margin-bottom: -2px;
+    }
+    .first-div p {
+        font-size: 20px;
+        margin-left: 80px;
+    }
+    .first-div h2 {
+        margin-left: 81px;
+        font-size: 31px;
+    }    
+    .second-div {
+        height: 689px;
+    }
+    .second-div h3 {
+        margin-left: 84px;
+        font-size: 24px;
+    }
+    .second-div h1 {
+        margin-top: -21px;
+        margin-left: 81px;
+        font-size: 46px;
+        margin-bottom: -5px;
+    }
+    .second-div p {
+        font-size: 19px;
+        margin-left: 83px;
+    }
+    .second-div input {
+        font-size: 22px;
+        margin-left: 86px;
+        padding: 17px 150px;
+        margin-bottom: 15px;
+    }
+    .second-div button {
+        font-size: 21px;
+        margin-left: 85px;
+        padding: 12px 34px
+    }
+    #messageinput {
+        font-size: 22px;
+        margin-left: 85px;
+        padding: 20px 150px;
+        margin-bottom: 11px;
+    }
+/* Footer Tag */
+    .footersection {
+        width: 202%;
+
+    }
+    #footertag {
+        margin-top: -46px;
+        margin-left: 186px;
+    }
+    .footerdiv h4{
+        font-size: 24px;
+    }
+
+}
